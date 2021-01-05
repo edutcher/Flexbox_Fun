@@ -9,10 +9,23 @@ h1 {
 #container {
     background-color: #003049;
     width: 90%;
-    height: 500px;
+    height: 60vh;
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
+}
+
+#options {
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    margin-top: 20px;
+    border: 2px solid black;
+    display: flex;
+}
+
+#options label {
+    margin: 1em;
 }
 
 #container div {
